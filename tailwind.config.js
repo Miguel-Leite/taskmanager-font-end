@@ -12,7 +12,7 @@ module.exports = {
       },
       fontFamily: {
         // sans: ['Asap, sans-sarif','Roboto, sans-sarif'],
-        sans: ['Asap, sans-sarif'],
+        'Asap': ['Asap, sans-sarif'],
       }
     },
   },

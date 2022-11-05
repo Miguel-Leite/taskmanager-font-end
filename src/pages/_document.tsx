@@ -31,7 +31,7 @@ export default class MyDocument extends Document {
 
           {/* <title>Moveit</title> */}
         </Head>
-        <body>
+        <body className="bg-dark-600 text-white">
           <Main />
           <NextScript />
         </body>
