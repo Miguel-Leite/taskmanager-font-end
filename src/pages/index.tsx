@@ -2,6 +2,7 @@ import { Head } from "next/document";
 import Image from "next/image";
 import logoImg from '../assets/logo.svg';
 import illustrator from '../assets/illustrator.svg';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
           <li><a href="#">Cases</a></li>
           <li><a href="#">Resources</a></li>
         </ul>
-        <button type="button" className="px-10 py-3 bg-secundary-ws rounded-md text-dark-600 hover:opacity-90">Sign In</button>
+        <Link href="/login" className="px-10 py-3 bg-secundary-ws rounded-md text-dark-600 hover:opacity-90">Sign In</Link>
       </header>
       <main className="flex items-center gap-32">
         <div className="flex items-start flex-col flex-1">
