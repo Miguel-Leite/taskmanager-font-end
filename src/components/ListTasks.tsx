@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
-import { BiSearch, BiTrash, BiCheck } from "react-icons/bi";
+import { BiSearch } from "react-icons/bi";
+import { Tasks } from "./Tasks";
 
 export function ListTasks() {
-  const [checked, setChecked] = useState(false);
 
   return (
     <div className="max-w-[1004px] w-full mx-auto mt-20">
@@ -19,25 +18,8 @@ export function ListTasks() {
 
       <div>
         <h3 className="font-bold text-2xl mb-5">Tasks - 2</h3>
-
-        <div className="flex items-center justify-between py-3 px-5 bg-dark-400 rounded-xl mb-3">
-          <div className="flex items-start gap-3">
-            <div className="form-check">
-              <input onChange={(e) => { (checked === true) ? setChecked(false) : setChecked(true)}} className="form-check-input appearance-none h-7 w-7 border-2 rounded-md border-secundary-ws bg-transparent checked:bg-secundary-ws checked:border-secundary-ws focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox"  />
-            </div>
-            <div className="flex flex-col gap-2">
-              <p className={`font-medium text-lg ${checked ? 'line-through' : ''}`}>Solve computer logic problems</p>
-              <span className="text-xs font-bold text-secundary-ws">Today</span>
-            </div>
-          </div>
-          { checked && (
-            <button className="hover:text-red-400">
-              <BiTrash size={24} />
-            </button>
-          ) }
-        </div>
         
-
+        <Tasks />
         
       </div>
     </div>
