@@ -24,11 +24,11 @@ Sendo que o conhicemento é continuo, resolve fazer o teste mesmo sabendo que n�
 
 ## Telas feitas 🚀
 
-[ x ] - Home
-[ x ] - Autenticação
-[ x ] - Dashboard
-[ ]   - Tela para adicionar tarefa
-[ ]   - Perfil
+- [ x ] Home
+- [ x ] - Autenticação
+- [ x ] - Dashboard
+- [ ]   - Tela para adicionar tarefa
+- [ ]   - Perfil
 
 ## Tela Home 🖥️
 
