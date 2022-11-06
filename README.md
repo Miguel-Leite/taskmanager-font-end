@@ -24,11 +24,11 @@ Sendo que o conhicemento é continuo, resolve fazer o teste mesmo sabendo que n�
 
 ## Telas feitas 🚀
 
-- [ x ] Home
-- [ x ] - Autenticação
-- [ x ] - Dashboard
-- [ ]   - Tela para adicionar tarefa
-- [ ]   - Perfil
+- [x] Home
+- [x] - Autenticação
+- [x] - Dashboard
+- [ ] - Tela para adicionar tarefa
+- [ ] - Perfil
 
 ## Tela Home 🖥️
 
@@ -61,7 +61,7 @@ Sendo que o conhicemento é continuo, resolve fazer o teste mesmo sabendo que n�
   </thead>
   <tbody>
     <tr>
-      <td> <img width="150" src="https://github.com/Miguel-Leite.png" alt="Miguel-Leite" /> </td>
+      <td> <img width="60" src="https://github.com/Miguel-Leite.png" alt="Miguel-Leite" /> </td>
       <td>Miguel Leite 🦸</td>
       <td>Desenvolvedor Font-End 🖥️</td>
     </tr>
