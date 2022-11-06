@@ -61,7 +61,7 @@ Sendo que o conhicemento é continuo, resolve fazer o teste mesmo sabendo que n�
   </thead>
   <tbody>
     <tr>
-      <td> <img src="https://github.com/Miguel-Leite.png" alt="Miguel-Leite" /> </td>
+      <td> <img width="150" src="https://github.com/Miguel-Leite.png" alt="Miguel-Leite" /> </td>
       <td>Miguel Leite 🦸</td>
       <td>Desenvolvedor Font-End 🖥️</td>
     </tr>
