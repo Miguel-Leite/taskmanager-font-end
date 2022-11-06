@@ -1,7 +1,9 @@
 
-ji:
 
-# 🚧 Task Manager 🚧
+<center>
+  # 🚧 Task Manager 🚧
+  
+</center>
 
 <p>
 TASKManager é um sistema de gerêncimento de tarefas, onde qualquer usuário tem acesso caso ele esteja
@@ -14,13 +16,13 @@ Sendo que o conhicemento é continuo, resolve fazer o teste mesmo sabendo que n�
 
 ## Funcionalidades 🚀
 
-[ ] - Autenticação com Google
-[ ] - Autenticação com Facebook
-[ ] - Mostrar dados do usuário autenticado
-[ ] - Listar tarefa
-[ ] - Adicionar tarefa
-[ ] - Actualizar tarefa
-[ ] - Remover tarefa
+- [ ] - Autenticação com Google
+- [ ] - Autenticação com Facebook
+- [ ] - Mostrar dados do usuário autenticado
+- [ ] - Listar tarefa
+- [ ] - Adicionar tarefa
+- [ ] - Actualizar tarefa
+- [ ] - Remover tarefa
 
 ## Telas feitas 🚀
 
