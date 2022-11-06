@@ -27,7 +27,7 @@ Sendo que o conhicemento é continuo, resolve fazer o teste mesmo sabendo que n�
 
 <p>
   
-  Abri o terminal na raíz do projecto e digite o seguinte comando: <br />
+  Abri o terminal na raíz do projecto e digite os seguintes comandos: <br />
 
   Usando YARN:  
   
