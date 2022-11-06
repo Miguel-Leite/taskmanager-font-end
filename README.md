@@ -20,7 +20,7 @@ autenticado na aplicação. <br />
 
 Essa aplicação basea-se a um teste que foi dado aos desenvolvedores front-end que estavam
 a ser testado, na empresa em que eu trabalhava (GRUPO SNIR).
-Sendo que o conhicemento é continuo, resolve fazer o teste mesmo sabendo que não foi direcionado pare me, porém pude adicionar novas features no projecto.
+Sendo que o conhecimento é continuo, resolve fazer o teste mesmo sabendo que não foi direcionado pare me, porém pude adicionar novas features no projecto.
 </p>
 
 ## Rodar aplicação
