@@ -23,6 +23,24 @@ a ser testado, na empresa em que eu trabalhava (GRUPO SNIR).
 Sendo que o conhicemento é continuo, resolve fazer o teste mesmo sabendo que não foi direcionado pare me, porém pude adicionar novas features no projecto.
 </p>
 
+## Rodar aplicação
+
+<p>
+  
+  Abri o terminal na raíz do projecto e digite o seguinte comando: <br />
+
+  Usando YARN:  
+  
+  - Instalar as depedências:  ``` yarn  ``` or ``` yarn install ```
+  - Executar:  ``` yarn dev```
+
+  Usando NPM:  
+  
+  - Instalar as depedências:  ``` npm install ```
+  - Executar:  ``` npm run dev```
+
+</p>
+
 ## Funcionalidades 🚀
 
 - [ ] - Autenticação com Google
@@ -35,7 +53,7 @@ Sendo que o conhicemento é continuo, resolve fazer o teste mesmo sabendo que n�
 
 ## Telas feitas 🚀
 
-- [x] Home
+- [x] - Home
 - [x] - Autenticação
 - [x] - Dashboard
 - [ ] - Tela para adicionar tarefa
