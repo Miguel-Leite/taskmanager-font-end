@@ -23,11 +23,11 @@ a ser testado, na empresa em que eu trabalhava (GRUPO SNIR).
 Sendo que o aprendizado é continuo, resolve fazer o teste mesmo sabendo que não foi direcionado pare me, porém pude adicionar novas features no projecto.
 </p>
 
-## Rodar aplicação
+## Como rodar a aplicação
 
 <p>
   
-  Abri o terminal na raíz do projecto e digite os seguintes comandos: <br />
+  Para rodar a aplicação é muito simple, abri o terminal na raíz do projecto e digite os seguintes comandos: <br />
 
   Usando YARN:  
   
@@ -59,19 +59,21 @@ Sendo que o aprendizado é continuo, resolve fazer o teste mesmo sabendo que nã
 - [ ] - Tela para adicionar tarefa
 - [ ] - Perfil
 
-## Tela Home 🖥️
+## Apresentação da aplicação
+
+### Tela Home 🖥️
 
 <img width="500" src="./screens/SnirTask.svg" alt="Tela Home" />
 
-## Tela Autenticação 🔒️
+### Tela Autenticação 🔒️
 
 <img width="500" src="./screens/SnirTask login.svg" alt="Tela login" />
 
-## Tela Dashboard
+### Tela Dashboard
 
 <img width="500" src="./screens/SnirTask dashboard.svg" alt="Tela Dashboard" />
 
-## Tela Perfil do Usuário
+### Tela Perfil do Usuário
 
 <img width="500" src="./screens/SnirTask dashboard profile.svg" alt="Tela Perfil" />
 
