@@ -51,7 +51,7 @@ Sendo que o aprendizado é continuo, resolve fazer o teste mesmo sabendo que nã
 - [ ] - Actualizar tarefa
 - [ ] - Remover tarefa
 
-## Telas feitas 🚀
+## Páginas(ou janelas) 🚀
 
 - [x] - Home
 - [x] - Autenticação
