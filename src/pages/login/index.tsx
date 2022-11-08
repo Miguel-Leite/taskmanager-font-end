@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 import logoImg from '../../assets/logo.svg';
 import { Input } from "../../components/Input";
+import { ButtonPrimary } from "../../components/ButtonPrimary";
 
 export default function Login() {
 
@@ -27,7 +28,7 @@ export default function Login() {
           <label htmlFor="password" className="font-medium text-base text-secundary-ws">Password</label>
           <Input type="password" placeholder="Please insert your password" />
         </div>
-        <button type="submit" className="text-center py-5 bg-secundary-ws text-dark-600 font-medium rounded-md">Sign In</button>
+        <ButtonPrimary text="Sign In" />
       </form>
     </div>
   )
