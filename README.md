@@ -8,14 +8,14 @@
 
 <!-- <h1 align="center">Main</h1> -->
 
-<p align="center">
+<center>
 
 ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)&nbsp;
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)&nbsp;
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)&nbsp;
 
-</p>
+</center>
 
 <!-- Status -->
 
@@ -88,23 +88,23 @@ $ yarn start
 
 # The server will initialize in the <http://localhost:3000>
 ```
-## :presentation: Presentation ##
+## Presentation ##
 
 ### Home 🖥️
 
-<img width="500" src="./screens/SnirTask.svg" alt="Tela Home" />
+<img width="500" height="300" src="./screens/SnirTask.svg" alt="Tela Home" />
 
 ### Authentication 🔒️
 
-<img width="500" src="./screens/SnirTask login.svg" alt="Tela login" />
+<img width="500" height="300" src="./screens/SnirTask login.svg" alt="Tela login" />
 
 ### Dashboard
 
-<img width="500" src="./screens/SnirTask dashboard.svg" alt="Tela Dashboard" />
+<img width="500" height="300" src="./screens/SnirTask dashboard.svg" alt="Tela Dashboard" />
 
 ### User Profile
 
-<img width="500" src="./screens/SnirTask dashboard profile.svg" alt="Tela Perfil" />
+<img width="500" height="300" src="./screens/SnirTask dashboard profile.svg" alt="Tela Perfil" />
 
 ## :memo: License ##
 
