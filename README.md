@@ -1,8 +1,12 @@
 <!-- <h1 align="center">Main</h1> -->
 
-<center align="center">
+<center>
 
 <img src="./src/assets/logo.svg" alt="Main" />
+
+ <!-- # 🚧 Task Manager 🚧 -->
+
+<hr />
 
 &#xa0;
 
