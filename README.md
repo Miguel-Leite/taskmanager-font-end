@@ -2,11 +2,11 @@
 
 <center>
 
-<img src="./src/assets/logo.svg" alt="Main" />
+<!-- <img src="./src/assets/logo.svg" alt="Main" /> -->
 
- <!-- # 🚧 Task Manager 🚧 -->
+ # 🚧 Task Manager 🚧
 
-<hr />
+<!-- <hr /> -->
 
 &#xa0;
 
