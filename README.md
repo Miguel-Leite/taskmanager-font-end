@@ -1,23 +1,21 @@
-<!-- <h1 align="center">Main</h1> -->
+<div align="center" id="top">
+  <img src="./src/assets/logo.svg" alt="Main" />
 
-<center>
-
-<!-- <img src="./src/assets/logo.svg" alt="Main" /> -->
-
- # 🚧 Task Manager 🚧
-
-<!-- <hr /> -->
-
-&#xa0;
+  &#xa0;
 
   <!-- <a href="https://main.netlify.app">Demo</a> -->
+</div>
+
+<!-- <h1 align="center">Main</h1> -->
+
+<span align="center">
 
 ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)&nbsp;
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)&nbsp;
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)&nbsp;
 
-</center>
+</span>
 
 <!-- Status -->
 
@@ -90,7 +88,6 @@ $ yarn start
 
 # The server will initialize in the <http://localhost:3000>
 ```
-
 ## Presentation ##
 
 ### Home 🖥️
@@ -114,3 +111,4 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 Made with :heart: by <a href="https://github.com/Miguel-Leite" target="_blank">Miguel Leite</a>
+
