@@ -2,6 +2,7 @@ import { FaGoogle, FaFacebookF } from "react-icons/fa";
 import Image from 'next/image';
 
 import logoImg from '../../assets/logo.svg';
+import { Input } from "../../components/Input";
 
 export default function Login() {
 
@@ -20,11 +21,11 @@ export default function Login() {
       <form className="flex flex-col gap-5">
         <div className="flex flex-col gap-2">
           <label htmlFor="email" className="font-medium text-base text-secundary-ws">Your email</label>
-          <input type="email" id="email" className="px-6 py-5 rounded-md bg-dark-400 placeholder:opacity-70 outline-0 border border-transparent focus:border-secundary-ws" placeholder="Please insert your e-mail address" />
+          <Input type="email" placeholder="Please insert your e-mail address" />
         </div>
         <div className="flex flex-col gap-2">
           <label htmlFor="password" className="font-medium text-base text-secundary-ws">Password</label>
-          <input type="password" id="password" className="px-6 py-5 rounded-md bg-dark-400 placeholder:opacity-70 outline-0 border border-transparent focus:border-secundary-ws" placeholder="Please insert your password" />
+          <Input type="password" placeholder="Please insert your password" />
         </div>
         <button type="submit" className="text-center py-5 bg-secundary-ws text-dark-600 font-medium rounded-md">Sign In</button>
       </form>

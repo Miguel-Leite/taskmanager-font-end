@@ -6,7 +6,7 @@ export default function Tasks() {
 
   return (
     <div>
-      <TopBar />
+      <TopBar buttonAdd={true} />
       <ListTasks />
     </div>
   )
