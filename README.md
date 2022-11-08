@@ -1,14 +1,12 @@
-<div align="center" id="top">
-  <img src="./src/assets/logo.svg" alt="Main" />
-
-  &#xa0;
-
-  <!-- <a href="https://main.netlify.app">Demo</a> -->
-</div>
-
 <!-- <h1 align="center">Main</h1> -->
 
 <center align="center">
+
+<img src="./src/assets/logo.svg" alt="Main" />
+
+&#xa0;
+
+  <!-- <a href="https://main.netlify.app">Demo</a> -->
 
 ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)&nbsp;
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
@@ -88,6 +86,7 @@ $ yarn start
 
 # The server will initialize in the <http://localhost:3000>
 ```
+
 ## Presentation ##
 
 ### Home 🖥️
@@ -111,4 +110,3 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 Made with :heart: by <a href="https://github.com/Miguel-Leite" target="_blank">Miguel Leite</a>
-
