@@ -17,9 +17,9 @@ export default function Login() {
         <button type="button" onClick={() => signIn('google')} className="bg-dark-400 text-zinc-200 flex items-center gap-4 font-medium rounded-md">
           <span className="px-6 py-5 bg-secundary-ws text-dark-600 rounded-l-md"> <FaGoogle size={17} /> </span> Google
         </button>
-        <a href="#" className="bg-dark-400 text-zinc-200 flex items-center gap-4 font-medium rounded-md">
+        <button type="button" onClick={() => signIn('facebook')} className="bg-dark-400 text-zinc-200 flex items-center gap-4 font-medium rounded-md">
           <span className="px-6 py-5 bg-secundary-ws text-dark-600 rounded-l-md"> <FaFacebookF size={17} /> </span> Facebook
-        </a>
+        </button>
       </div>
       <form className="flex flex-col gap-5">
         <div className="flex flex-col gap-2">
