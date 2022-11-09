@@ -1,9 +1,11 @@
 import { FaGoogle, FaFacebookF } from "react-icons/fa";
 import Image from 'next/image';
+import { getSession, signIn } from 'next-auth/react';
 
 import logoImg from '../../assets/logo.svg';
 import { Input } from "../../components/Input";
 import { ButtonPrimary } from "../../components/ButtonPrimary";
+import { GetServerSideProps } from "next";
 
 export default function Login() {
 
@@ -12,9 +14,9 @@ export default function Login() {
       <title>Login | Task Manager</title>
       <Image src={logoImg} alt="Logo Task Manager" className="mb-10" />
       <div className="flex flex-col gap-3 mb-10">
-        <a href="#" className="bg-dark-400 text-zinc-200 flex items-center gap-4 font-medium rounded-md">
+        <button type="button" onClick={() => signIn('google')} className="bg-dark-400 text-zinc-200 flex items-center gap-4 font-medium rounded-md">
           <span className="px-6 py-5 bg-secundary-ws text-dark-600 rounded-l-md"> <FaGoogle size={17} /> </span> Google
-        </a>
+        </button>
         <a href="#" className="bg-dark-400 text-zinc-200 flex items-center gap-4 font-medium rounded-md">
           <span className="px-6 py-5 bg-secundary-ws text-dark-600 rounded-l-md"> <FaFacebookF size={17} /> </span> Facebook
         </a>
@@ -32,4 +34,29 @@ export default function Login() {
       </form>
     </div>
   )
+}
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  const session = await getSession(context)
+
+  if (session) {
+    return {
+      redirect: {
+        destination: '/tasks',
+        permanent: false
+      }
+    }
+  }
+
+  return {
+    props: {
+      session
+    }
+  }
+
+  return {
+    props: {
+      user: 'Miguel'
+    }
+  }
 }

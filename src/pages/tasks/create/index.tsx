@@ -30,7 +30,7 @@ export default function Create() {
               placeholder="Today" />
           </div>
           <div className="flex flex-col gap-2">
-            <ButtonPrimary text="Create task" />
+            <ButtonPrimary type="submit" text="Create task" />
             <ButtonSecondary text="Edit task" />
           </div>
         </div>
