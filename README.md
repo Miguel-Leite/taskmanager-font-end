@@ -50,8 +50,8 @@ Since learning is continuous, he decides to take the test even though he knows t
 ## :sparkles: Features ##
 
 - [x] - Authentication with Google
-- [ ] - Authentication with Facebook
-- [ ] - Mostrar dados do usuário autenticado
+- [x] - Authentication with Facebook
+- [x] - Mostrar dados do usuário autenticado
 - [ ] - List task
 - [ ] - Add task
 - [ ] - Update task
